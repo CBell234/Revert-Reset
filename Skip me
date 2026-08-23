@@ -1,0 +1,5 @@
+Skip this files as it has the wrong date format
+import time
+now = time.localtime()
+formatted_time = time.strftime("%H:%M:%S %m-%d-%Y", now) #american format
+print formatted_time
